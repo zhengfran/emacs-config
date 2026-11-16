@@ -2,6 +2,19 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository ownership
+
+This is the standalone `zhengfran/emacs-config` repository, also used as the
+`basic/editor/emacs` submodule of dotconfig. Configuration, snippets, build/font
+installers and Emacs client scripts belong here. Machine-wide shell, window-manager
+and deployment integration belongs in dotconfig. Read `README.md` for standalone
+startup, script paths and external dependencies.
+
+Commit and push changes here before updating the gitlink in dotconfig. Use
+Conventional Commits (`type(scope): description`) without assistant attribution.
+Keep credentials and runtime state untracked. After editing Lisp, remove matching
+`.elc` files and validate the full init plus affected tests.
+
 ## Overview
 
 This is a modular Emacs configuration built with `straight.el` package manager and `use-package`. The configuration is split into 20+ feature-based modules for maintainability and clear dependency management.

@@ -1,0 +1,30 @@
+# Editor backups and compiled Lisp
+*~
+\#*\#
+.#*
+*.elc
+
+# Emacs runtime state and downloaded packages
+**/.cache/
+**/elpa/
+**/eln-cache/
+**/straight/
+**/var/
+**/gptel/
+**/tree-sitter/
+**/etc/
+**/bookmarks
+**/rime/
+**/emacs-desktop*
+**/.local/
+**/custom.el
+
+# OS and build artifacts
+.DS_Store
+Thumbs.db
+*.o
+*.a
+*.so
+*.log
+*.tmp
+*.bak
